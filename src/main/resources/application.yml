@@ -1,0 +1,8 @@
+spring:
+  # ?? ???? redis ? ??
+  # org.springframework.session:spring-session-data-redis ??? ?? ??
+  session:
+    store-type: redis
+  redis:
+    host: localhost
+    port: 6379

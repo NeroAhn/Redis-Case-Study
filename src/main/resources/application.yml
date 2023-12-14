@@ -3,6 +3,11 @@ spring:
   # org.springframework.session:spring-session-data-redis ??? ?? ??
   session:
     store-type: redis
+
+  # redis cache ???? ???? ?? ??
+  cache:
+    type: redis
+
   redis:
     host: localhost
     port: 6379
